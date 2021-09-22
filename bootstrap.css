@@ -639,11 +639,17 @@ progress {
   .container-sm, .container {
     max-width: 540px;
   }
+  #h2{
+margin-left: 3em;
+  }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
 
+  }
+  #h2{
+    color: blue;
   }
   .d-flex{
 max-width: 150px;
@@ -724,7 +730,7 @@ max-width: 250px;
 
   }
   .navbar-nav {
-    font-size: 25px;
+    font-size: 18px;
 }
  .d-flex{
 max-width: 400px;
