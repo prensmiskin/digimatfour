@@ -643,6 +643,10 @@ progress {
 margin-left: 3em;
   }
 }
+
+ #why{
+     text-align: justify;
+  }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
@@ -673,6 +677,19 @@ max-width: 150px;
         border:none;
 
   }
+  .btny{
+        max-width: 100%;
+        font-size: 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+        /* oguzhan */
+        text-decoration:none;
+        border:none;
+
+  }
+   #why{
+    margin-right: 3%;margin-left: 3%; text-align: justify;font-size: 8px;
+  }
 
  .dropdown-menu {
     background-color: red;
@@ -698,9 +715,13 @@ max-width: 200px;
 
 
   }
+   
   .navbar-nav {
  font-size: 12px;
 }
+ #why{
+    margin-right: 3%;margin-left: 3%; text-align: justify;font-size: 8px;
+  }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
@@ -718,10 +739,27 @@ max-width: 250px;
         font-size: 2px;
 
   }
+  .btny{
+        max-width: 100%;
+        font-size: 15px;
+        margin-left: 5%;
+        margin-right: 5%;
+        /* oguzhan */
+        text-decoration:none;
+        border:none;
+
+  }
+  #why{
+    margin-right: 3%;margin-left: 3%; text-align: justify;font-size: 12px;
+  }
+   
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
+  }
+  #why{
+    margin-right: 3%;margin-left: 3%; text-align: justify;font-size: 10px;
   }
 }
 @media (min-width: 1400px) {
@@ -729,6 +767,8 @@ max-width: 250px;
     max-width: 1320px;
 
   }
+  
+
   .navbar-nav {
     font-size: 18px;
 }
@@ -741,6 +781,28 @@ max-width: 400px;
         font-size: 2px;
 
   }
+  .btny{
+        max-width: 100%;
+        font-size: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        /* oguzhan */
+        text-decoration:none;
+        border:none;
+
+  }
+  #why{
+    margin-right: 3%;margin-left: 3%; text-align: justify;font-size: 15px;
+  }
+   
+}
+.cardx{
+
+width: 60%;
+text-align: center;
+
+
+
 }
 .row {
   --bs-gutter-x: 1.5rem;
