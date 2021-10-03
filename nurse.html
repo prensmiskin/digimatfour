@@ -13,8 +13,15 @@
         <link href="footers.css" rel="stylesheet">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Bootstrap core CSS -->
 <link rel="stylesheet" type="text/css" href="bootstrap.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+<link href="https://fonts.googleapis.com/css?family=Bellefair|Lato|Righteous" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="demo/css/core.css">
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -140,17 +147,16 @@ One of the key elements of providing quality care is to install the best nurse c
      
         <!-- End Service Blcoks -->
 <div class="row">
-  <div class="column" id="s1" onClick="reply_click(this.id)" style=" text-align: center; background-color:#f7f7f7;width: 48%;height: 20%;margin-right: 2%;cursor:pointer;">
+  <div class="column" id="s1" onClick="reply_click(this.id)" style=" text-align: center; width: 48%;height: 20%;margin-right: 2%;cursor:pointer;margin-bottom: 2%;">
     <img  style="width: 90px;height: 90px;float: left;" src="https://www.randaglobal.com/wp-content/uploads/wireless-nurse-call-system-icon.png">
     <p style="font-family:'Open Sans', Arial, sans-serif;
   font-size:14px;
   font-weight:300;
   line-height:1.6em;
-  color:#656565; margin-top: 7%;margin-bottom: 7%;margin-left: 3%; float: left;   
-">Wireless Nurse Call System</p>
+   margin-top: 7%;margin-bottom: 7%;margin-left: 3%; float: left;">Wireless Nurse Call System</p>
 
   </div>
-  <div class="column" id="s2" onClick="reply_click(this.id)"  style=" text-align: center; background-color:#f7f7f7;width: 48%;height: 20%;cursor:pointer;">
+  <div class="column" id="s2" onClick="reply_click(this.id)"  style=" text-align: center; width: 48%;height: 20%;cursor:pointer;margin-bottom: 2%;">
  <img style="width: 90px;height: 90px;    float: left;
 " src="https://www.randaglobal.com/wp-content/uploads/wired-nurse-call-system-icon.png">   
  <p style="text-align:justify;font-family:'Open Sans', Arial, sans-serif;
@@ -163,8 +169,8 @@ One of the key elements of providing quality care is to install the best nurse c
   </div>
 </div>
 <div class="row">
-  <div class="column" id="s3" onClick="reply_click(this.id)" style=" text-align: center; background-color:#f7f7f7;width: 48%;height: 20%;margin-right: 2%; cursor:pointer;">
-    <img style="width: 90px;height: 90px;float: left;" src="https://www.randaglobal.com/wp-content/uploads/ip-nurse-call-system-icon.png">
+  <div class="column" id="s3" onClick="reply_click(this.id)" style=" text-align: center; width: 48%;height: 20%;margin-right: 2%; cursor:pointer;">
+    <img style="width: 90px;height: 90px;float: left;margin-bottom: 2%;" src="https://www.randaglobal.com/wp-content/uploads/ip-nurse-call-system-icon.png">
     <p style="text-align:justify;font-family:'Open Sans', Arial, sans-serif;
   font-size:14px;
   font-weight:300;
@@ -173,7 +179,7 @@ One of the key elements of providing quality care is to install the best nurse c
 ">IP BASED NURSE CALL SYSTEM
 </p>
   </div>
-  <div class="column" id="s4" onClick="reply_click(this.id)"  style=" text-align: center; background-color:#f7f7f7;width: 48%;height: 20%;cursor:pointer;">
+  <div class="column" id="s4" onClick="reply_click(this.id)"  style=" text-align: center; width: 48%;height: 20%;cursor:pointer;margin-bottom: 2%;">
  <img style="width: 90px;height: 90px;float: left;" src="https://www.randaglobal.com/wp-content/uploads/hospital-emergency-codes-icon.png">    <p style="text-align:justify;font-family:'Open Sans', Arial, sans-serif;
   font-size:14px;
   font-weight:300;
@@ -186,6 +192,8 @@ One of the key elements of providing quality care is to install the best nurse c
 </div>
 
 <style>
+
+
 * {
   box-sizing: border-box;
 }
@@ -211,6 +219,9 @@ One of the key elements of providing quality care is to install the best nurse c
 .right {
   width: 50%;
 }
+
+
+
 </style>
 
 
@@ -243,14 +254,14 @@ One of the key elements of providing quality care is to install the best nurse c
   {
 if (clicked_id == "s1") {
 
-  window.location.href = "nurse.html";
-
+  window.location.href = "wirelesnurse.html"; 
+                          
 
 }
 
 if (clicked_id == "s2") {
 
-  window.location.href = "clock.html";
+  window.location.href = "wirednursecall.html";
 
 
 }
@@ -326,15 +337,22 @@ if (clicked_id == "n6") {
 
 
 }
+
+
+
   }
 
 
 
 </script>
 
+
+
+
 <style type="text/css">
   #s1:hover,#s2:hover,#s3:hover,#s4:hover {
-  background-color: #F7EEEE;
+  background-color: #AFAE98;
+  color: red;
 }
 
 

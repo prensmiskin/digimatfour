@@ -150,6 +150,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color:#656565;
 }
 
 abbr[title],
@@ -630,7 +631,26 @@ progress {
   margin-right: auto;
   margin-left: auto;
 }
+@media (max-width: 575px) {
+  .navbar-nav{
 
+    font-size: 8px;
+  }
+  .container-sm, .container {
+    max-width: 540px;
+  }
+  #h2{
+margin-left: 3em;
+  }
+ 
+  #phone{
+
+margin-left: 2%;
+width: 142%;
+border-color:#111;
+
+  }
+}
 @media (min-width: 576px) {
   .navbar-nav{
 
@@ -642,10 +662,17 @@ progress {
   #h2{
 margin-left: 3em;
   }
+  #phone{
+
+margin-left: 2%;
+width: 173%;
+border-color:#111;
+
+  }
 }
 
  #why{
-     text-align: justify;
+     text-align: justify; margin-top:15%;
   }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
@@ -688,7 +715,7 @@ max-width: 150px;
 
   }
    #why{
-    margin-right: 3%;margin-left: 3%; text-align: justify;font-size: 8px;
+    margin-right: 3%;margin-left: 3%; text-align: justify;font-size: 0.8em; margin-top:15%;
   }
 
  .dropdown-menu {
@@ -696,6 +723,16 @@ max-width: 150px;
   }
   .navbar-nav {
 }
+
+#phone{
+
+margin-left: 2%;
+width: 113%;
+border-color:blue;
+
+  }
+
+
 }
 
 @media (min-width: 880px) {
@@ -720,8 +757,18 @@ max-width: 200px;
  font-size: 12px;
 }
  #why{
-    margin-right: 3%;margin-left: 3%; text-align: justify;font-size: 8px;
+    margin-right: 3%;margin-left: 3%; text-align: justify;font-size: 0.8em; margin-top:15%;
   }
+
+#phone{
+
+margin-left: 2%;
+width: 113%;
+border-color:red;
+
+  }
+
+
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
@@ -750,7 +797,14 @@ max-width: 250px;
 
   }
   #why{
-    margin-right: 3%;margin-left: 3%; text-align: justify;font-size: 12px;
+    margin-right: 3%;margin-left: 3%; text-align: justify;font-size: 1em; margin-top:15%;
+  }
+  #phone{
+
+margin-left: 2%;
+width: 153%;
+border-color:#855;
+
   }
    
 }
@@ -759,7 +813,14 @@ max-width: 250px;
     max-width: 1140px;
   }
   #why{
-    margin-right: 3%;margin-left: 3%; text-align: justify;font-size: 10px;
+    margin-right: 3%;margin-left: 3%; text-align: justify;font-size: 1.1em; margin-top:15%;
+  }
+   #phone{
+
+margin-left: 2%;
+width: 183%;
+border-color:red;
+
   }
 }
 @media (min-width: 1400px) {
@@ -767,7 +828,13 @@ max-width: 250px;
     max-width: 1320px;
 
   }
-  
+  #phone{
+
+margin-left: 2%;
+width: 215%;
+border-color:blue;
+
+  }
 
   .navbar-nav {
     font-size: 18px;
@@ -791,8 +858,14 @@ max-width: 400px;
         border:none;
 
   }
+  .btnx{
+        
+        font-size: 15px;
+      
+
+  }
   #why{
-    margin-right: 3%;margin-left: 3%; text-align: justify;font-size: 15px;
+    margin-right: 3%;margin-left: 3%; text-align: justify;font-size: 1.1em; margin-top:15%;
   }
    
 }
